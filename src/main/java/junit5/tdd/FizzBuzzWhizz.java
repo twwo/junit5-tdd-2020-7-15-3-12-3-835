@@ -11,7 +11,7 @@ public class FizzBuzzWhizz {
             result.append("Buzz");
         }
         if (number % 7 == 0) {
-            return "Whizz";
+            result.append("Whizz");
         }
         if (result.toString().isEmpty()) {
             result.append(number);
